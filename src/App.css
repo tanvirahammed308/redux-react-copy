@@ -1,0 +1,76 @@
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+  background-color: rgb(181, 209, 153);
+  padding: 20px;
+  border: 1px solid green;
+  border-radius: 5px;
+  align-items: center;
+  
+}
+.logo{
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.nav-sub{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.nav-link{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.cart-count{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+
+}
+.home{
+  margin: 10px 20px;
+ 
+
+}
+.cart{
+  margin: 10px 20px;
+
+}
+.home-title{
+  text-align: center;
+  color:#05346c;
+  text-transform: capitalize;
+  
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness:2px;
+  padding: 2px;
+ 
+}
+img{
+  height: 80px;
+}
+.card{
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+}
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  
+}
